@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\personalProject\\netProjects\\CachingWebApiWithRedis\\CachingWebApi\\CachingWebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\personalProject\\netProjects\\CachingWebApiWithRedis\\CachingWebApi\\CachingWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\personalProject\\netProjects\\CachingWebApiWithRedis\\CachingWebApi\\CachingWebApi.csproj",
+        "projectName": "CachingWebApi",
+        "projectPath": "D:\\Dev\\personalProject\\netProjects\\CachingWebApiWithRedis\\CachingWebApi\\CachingWebApi.csproj",
+        "packagesPath": "C:\\Users\\tcmkorcil\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\personalProject\\netProjects\\CachingWebApiWithRedis\\CachingWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tcmkorcil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.turkcell.com.tr/artifactory/api/nuget/nuget": {},
+          "https://artifactory.turkcell.com.tr/artifactory/api/nuget/virtual-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
